@@ -57,6 +57,14 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 'Alumni Network',
+    title: 'alumni-network',
+    description: 'A platform where students and alumni can register and interact with each other',
+    techStack: ['Next.js', 'TypeScript', 'Tailwind', 'Prisma',"RBAC security","postgresql","express.js"],
+    // demoUrl: 'https://example.com',
+    repoUrl: 'https://github.com/anandKumar0432/alumni-network'
+  },
+  {
     id: 'Draw-app',
     title: 'Draw-app',
     description: 'A Excalidraw like application built with monorepo architecture and postgresql, where you can draw and share your drawings with others in real time.',
